@@ -1,5 +1,5 @@
 {
-  "name": "compound (express 4 version)",
+  "name": "compound (ExpressJs 4 version)",
   "version": "1.1.15",
   "author": "Anatoliy Chakkaev",
   "contributors": [
@@ -12,7 +12,7 @@
     "web",
     "framework",
     "rails",
-    "express",
+    "express 4",
     "railway"
   ],
   "url": "http://compoundjs.com",

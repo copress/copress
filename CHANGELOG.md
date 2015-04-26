@@ -3,6 +3,8 @@ compound-changelog(3) -- Changes in CompoundJS
 
 ## HISTORY
 
+- Migration ExpressJs 3.x to ExpressJs 4.x
+
 ### Upcoming release
 
 - Fixed HTTPS support

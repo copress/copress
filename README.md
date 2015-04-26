@@ -1,6 +1,6 @@
 # Change current release
 ## upgrade
-    express 3.x to  4.x
+    ExpressJs 3.x to  4.x
 
 About [<img src="https://secure.travis-ci.org/1602/compound.png" />](http://travis-ci.org/#!/1602/compound) [![Code Climate](https://codeclimate.com/repos/550d7c5c69568077bd01488f/badges/e7b56f30b1a89120a1f5/gpa.svg)](https://codeclimate.com/repos/550d7c5c69568077bd01488f/feed)
 =====
