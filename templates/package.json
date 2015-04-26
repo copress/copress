@@ -1,18 +1,26 @@
 { "name": "{{ APPNAME }}"
 , "version": "0.0.1"
-, "engines": ["node >= 0.8.0"]
+, "engines": ["node >= 0.8.0",  "iojs >= 1.6.0"]
 , "main": "server.{{ CODE }}"
 , "dependencies":
   { "{{ VIEWENGINE }}": "*"
   , "{{ VIEWENGINE }}-ext": "latest"
-  , "express": "~3.x"
+  , "express": "~4.x"
   , "compound": ">= 1.1.0"
-  , "jugglingdb": ">= 0.1.0"
   {{ DBDEPENDENCY }}
-  , "coffee-script": ">= 1.1.1"
   , "{{ CSSENGINE }}": "latest"
   , "seedjs": "latest"
+  , "method-override": "latest"
+  , "body-parser": "latest"
+  , "cookie-parser": "latest"
+  , "express-session": "latest"
+  , "multer": "latest"
+  , "morgan": "latest"
+  , "errorhandler": "^1.3.5"
+  , "serve-favicon": "latest"
   , "co-assets-compiler": "*"
+  , "jade-ext": ">= 0.0.5"
+  , "jugglingdb": ">= 0.1.25"
   },
   "devDependencies":
   { "nodeunit": "*"

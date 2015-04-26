@@ -1,5 +1,5 @@
 {
-  "name": "compound",
+  "name": "compound (express 4 version)",
   "version": "1.1.15",
   "author": "Anatoliy Chakkaev",
   "contributors": [
@@ -17,7 +17,8 @@
   ],
   "url": "http://compoundjs.com",
   "engines": [
-    "node >= 0.8.0"
+    "node >= 0.8.0",
+    "iojs >= 1.6.0"
   ],
   "main": "lib/server/compound.js",
   "bin": {
@@ -33,10 +34,9 @@
     "./man/routing.3"
   ],
   "dependencies": {
-    "yaml-js": ">= 0.0.2",
     "coffee-script": "1.7.x",
+    "yaml-js": ">= 0.0.2",
     "ejs-ext": ">= 0.1.4-2",
-    "jade-ext": ">= 0.0.5",
     "railway-routes": ">= 0.0.10",
     "kontroller": ">= 0.0.11",
     "inflection": "~1.2.5"
@@ -46,11 +46,11 @@
     "url": "https://github.com/1602/compound.git"
   },
   "devDependencies": {
-    "jugglingdb": ">= 0.1.25",
+
     "nodeunit": "latest",
     "semicov": "*",
     "marked": ">= 0.2.6",
-    "express": "3.x",
+    "express": "4.x",
     "should": "1.2.2",
     "mocha": "1.8.1",
     "jshint": "^2.6.3"
