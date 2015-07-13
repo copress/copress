@@ -19,13 +19,13 @@ Installation
 Option 1: npm
 
 ```sh
-sudo npm install compound -g
+sudo npm install copress -g
 ```
 
 Option 2: GitHub
 
 ```sh
-sudo npm install 1602/compound
+sudo npm install taoyuan/copress
 ```
 
 Usage
