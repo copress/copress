@@ -34,13 +34,13 @@
     "./man/routing.3"
   ],
   "dependencies": {
-    "coffee-script": "1.7.x",
-    "yaml-js": ">= 0.0.2",
-    "ejs": "latest",
-    "ejs-ext": ">= 0.1.4-2",
-    "railway-routes": ">= 0.0.10",
-    "kontroller": ">= 0.0.11",
-    "inflection": "~1.2.5"
+    "coffee-script": "^1.9.x",
+    "yaml-js": "^0.1.1",
+    "ejs": "^2.3.x",
+    "ejs-ext": "^0.1.4-5",
+    "railway-routes": "^0.0.10",
+    "kontroller": "^0.0.11",
+    "inflection": "^1.7.1"
   },
   "repository": {
     "type": "git",
@@ -48,15 +48,15 @@
   },
   "devDependencies": {
     "nodeunit": "latest",
-    "semicov": "*",
-    "marked": ">= 0.2.6",
-    "express": "4.x",
-    "should": "1.2.2",
-    "mocha": "1.8.1",
-    "jshint": "^2.6.3"
+    "semicov": "latest",
+    "marked": "^0.3.3",
+    "express": "^4.x",
+    "should": "^7.0.2",
+    "mocha": "^2.2.5",
+    "jshint": "^2.8.0"
   },
   "scripts": {
-    "test": "make test",
+    "test": "mocha -r ./test/init.js ./test/**/*.test.js",
     "prepublish": "make build"
   }
 }
