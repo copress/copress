@@ -63,7 +63,7 @@
     "test": "mocha -r ./test/init ./test/**/*.test.js",
     "coverage": "DEBUG= istanbul cover --dir ./reports/coverage _mocha -- --require ./test/init 'test/**/*.test.js'",
     "view-coverage": "open coverage/lcov-report/index.html",
-    "send-coverage": "cat ./reports/coverage/lcov.info | ./node_modules/.bin/codeclimate",
+    "send-coverage": "cat ./reports/coverage/lcov.info | ./node_modules/.bin/codeclimate-test-reporter",
     "clean": "rm -rf build; rm -rf reports; rm -rf node_modules"
   }
 }
