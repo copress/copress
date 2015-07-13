@@ -6,9 +6,11 @@ machine:
 
 test:
   pre:
-    - npm install
+    - npm run test
   override:
-    - npm test
+    - npm run coverage
+  post:
+    - npm run send-coverage
 
 general:
   artifacts:
