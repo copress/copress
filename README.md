@@ -1,6 +1,6 @@
 Copress
 ====
-[![Build](https://circleci.com/gh/taoyuan/copress.svg?style=shield)](https://circleci.com/gh/taoyuan/copress)
+[![Build](https://circleci.com/gh/taoyuan/copress.svg)](https://circleci.com/gh/taoyuan/copress)
 [![Coverage](https://codeclimate.com/github/taoyuan/copress/badges/coverage.svg)](https://codeclimate.com/github/taoyuan/copress)
 [![Code Climate](https://codeclimate.com/github/taoyuan/copress/badges/gpa.svg)](https://codeclimate.com/github/taoyuan/copress)
 [![Dependencies](https://david-dm.org/taoyuan/copress.svg)](https://david-dm.org/taoyuan/copress)

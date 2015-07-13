@@ -35,9 +35,11 @@
     "./man/routing.3"
   ],
   "dependencies": {
+    "bootable": "^0.2.4",
     "coffee-script": "^1.9.x",
     "ejs": "^2.3.x",
     "ejs-ext": "^0.1.4-5",
+    "expressx": "^0.1.8",
     "inflection": "^1.7.1",
     "kontroller": "^0.0.11",
     "railway-routes": "^0.0.10",
