@@ -1,12 +1,12 @@
 {
-  "name": "compound (ExpressJs 4 version)",
-  "version": "1.1.15",
+  "name": "copress",
+  "version": "1.1.16",
   "author": "Anatoliy Chakkaev",
   "contributors": [
     "Anatoliy Chakkaev <mail@anatoliy.in> (http://anatoliy.in)",
     "Sascha Gehlich <contact@filshmedia.net> (http://filshmedia.net)"
   ],
-  "description": "CompoundJS - MVC framework for NodeJS",
+  "description": "CompoundJS - MVC framework for NodeJS (ExpressJs 4 version)",
   "keywords": [
     "mvc",
     "web",
@@ -43,10 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/1602/compound.git"
+    "url": "https://github.com/taoyuan/copress.git"
   },
   "devDependencies": {
-
     "nodeunit": "latest",
     "semicov": "*",
     "marked": ">= 0.2.6",
