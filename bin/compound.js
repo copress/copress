@@ -27,7 +27,7 @@ if (!compound) {
     compound = new Compound();
 }
 
-compound.init();
+compound.boot();
 
 var args = process.argv.slice(2);
 var exitAfterAction = true;
