@@ -1,4 +1,4 @@
-copress
+Copress
 ====
 [![Build](https://circleci.com/gh/taoyuan/copress.svg?style=shield)](https://circleci.com/gh/taoyuan/copress)
 [![Coverage](https://codeclimate.com/github/taoyuan/copress/badges/coverage.svg)](https://codeclimate.com/github/taoyuan/copress)
