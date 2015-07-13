@@ -37,6 +37,7 @@
   "dependencies": {
     "bootable": "^0.2.4",
     "coffee-script": "^1.9.x",
+    "configup": "^0.1.0",
     "ejs": "^2.3.x",
     "ejs-ext": "^0.1.4-5",
     "expressx": "^0.1.8",
