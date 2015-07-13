@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "codeclimate-test-reporter": "^0.1.0",
+    "debug": "^2.2.0",
     "express": "^4.x",
     "istanbul": "^0.3.17",
     "jshint": "^2.8.0",
