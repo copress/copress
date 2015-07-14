@@ -162,7 +162,7 @@ Default names for keys are `tls.key` and `tls.cert`, but you can store in in ano
 `server.js`
 
 ```js
-require('compound').createServer({
+require('copress').createServer({
     key: fs.readFileSync('/tmp/tls.key').toString(),
     cert: fs.readFileSync('/tmp/tls.cert').toString()
 });

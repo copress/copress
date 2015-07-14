@@ -4,7 +4,7 @@ app = module.exports = (params) ->
   params = params || {}
   # specify current dir as default root of server
   params.root = params.root || __dirname
-  return require('compound').createServer(params)
+  return require('copress').createServer(params)
 
 if not module.parent || module.parent.isApplicationLoader
   port = process.env.PORT || 3000
