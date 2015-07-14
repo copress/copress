@@ -15,6 +15,7 @@ describe('compound/boot', function () {
             app.dummyComponentOptions.option.should.equal('value');
             app.get('host').should.equal('127.0.0.1');
             app.get('port').should.equal(3000);
+            compound.exts.should.eql([1, 3, 2]);
             plan.check();
         });
 
