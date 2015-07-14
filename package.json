@@ -36,8 +36,10 @@
   ],
   "dependencies": {
     "bootable": "^0.2.4",
+    "bootable-component": "^0.1.x",
+    "bootable-middleware": "^0.1.x",
     "coffee-script": "^1.9.x",
-    "configup": "^0.1.0",
+    "configup": "^0.1.x",
     "ejs": "^2.3.x",
     "ejs-ext": "^0.1.4-5",
     "expressx": "^0.1.8",
@@ -59,8 +61,10 @@
     "marked": "^0.3.3",
     "mocha": "^2.2.5",
     "nodeunit": "latest",
+    "plando": "^0.1.2",
     "semicov": "latest",
-    "should": "^7.0.2"
+    "should": "^7.0.2",
+    "supertest": "^1.0.1"
   },
   "scripts": {
     "prepublish": "make build",

@@ -12,8 +12,8 @@ if (!process.env.TRAVIS) {
     require('semicov').init('lib');
 }
 
-global.getApp = function() {
-    var app = require('../').createServer();
+global.getApp = function(options) {
+    var app = require('../').createServer(options);
     app.enable('quiet');
     return app;
 };
