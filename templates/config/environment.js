@@ -14,7 +14,7 @@ module.exports = function (compound) {
     app.set('jsDirectory', '/javascripts/');
     app.set('cssDirectory', '/stylesheets/');
     app.set('cssEngine', '{{ CSSENGINE }}');
-    compound.loadConfigs(__dirname);
+    compound.loadConfig(__dirname, 'config');
     app.use(favicon(app.root + '/public/favicon.ico'));
     app.use(logger('dev'));
     app.use(bodyParser.json());
