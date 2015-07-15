@@ -35,7 +35,7 @@
     "./man/routing.3"
   ],
   "dependencies": {
-    "bootable": "^0.2.4",
+    "bootable": "taoyuan/bootable",
     "bootable-component": "^0.1.x",
     "bootable-middleware": "^0.1.x",
     "coffee-script": "^1.9.x",
