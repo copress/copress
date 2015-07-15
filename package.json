@@ -36,7 +36,7 @@
   ],
   "dependencies": {
     "bootable": "taoyuan/bootable",
-    "bootable-component": "^0.1.x",
+    "bootable-components": "^0.1.x",
     "bootable-middleware": "^0.1.x",
     "coffee-script": "^1.9.x",
     "configup": "^0.1.x",
@@ -56,7 +56,6 @@
   },
   "devDependencies": {
     "codeclimate-test-reporter": "^0.1.0",
-    "debug": "^2.2.0",
     "express": "^4.x",
     "istanbul": "^0.3.17",
     "jshint": "^2.8.0",
