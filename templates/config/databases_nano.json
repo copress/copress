@@ -1,0 +1,6 @@
+{
+  "db": {
+    "driver": "nano",
+    "url": "http://localhost:5984"
+  }
+}

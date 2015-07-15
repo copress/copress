@@ -1,0 +1,6 @@
+{
+  "db": {
+    "driver": "sqlite3",
+    "database": ":memory:"
+  }
+}

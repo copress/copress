@@ -1,0 +1,7 @@
+{
+  "db": {
+    "driver": "redis",
+    "host": "localhost",
+    "database": 2
+  }
+}

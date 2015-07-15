@@ -1,0 +1,8 @@
+{
+  "db": {
+    "driver": "riak",
+    "host": "localhost",
+    "port": "8098",
+    "database": "APPNAME-dev"
+  }
+}

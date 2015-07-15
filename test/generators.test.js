@@ -89,7 +89,7 @@ describe('Generators API', function() {
             'create  package.json',
             'create  server.js',
             'create  .gitignore',
-            'create  config/database.js',
+            'create  config/databases.json',
             'create  app/views/layouts/application_layout.ejs',
             'create  app/controllers/application_controller.js'
         ]);

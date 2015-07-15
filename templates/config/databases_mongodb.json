@@ -1,0 +1,6 @@
+{
+  "db": {
+    "driver": "mongodb",
+    "url": "mongodb://localhost/APPNAME-dev"
+  }
+}
