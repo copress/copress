@@ -1,0 +1,8 @@
+{
+  "defaultLocale": "en",
+  "watch": true,
+  "log actions": true,
+  "env info": true,
+  "force assets compilation": true,
+  "translationMissing": "display"
+}

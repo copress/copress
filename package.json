@@ -24,7 +24,7 @@
   "bin": {
     "copress": "bin/compound.js",
     "compound": "bin/compound.js",
-    "rw": "bin/compound.js"
+    "co": "bin/compound.js"
   },
   "man": [
     "./man/compound.1",

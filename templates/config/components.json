@@ -1,0 +1,5 @@
+{
+  "copress-component-sycle": {
+    "models": [".", ".."]
+  }
+}

@@ -20,7 +20,7 @@ if (!module.parent || module.parent.isApplicationLoader) {
     var server = app();
     server.listen(port, host, function () {
         console.log(
-            'Compound server listening on %s:%d within %s environment',
+            'Compound server listening on http://%s:%d within %s environment',
             host, port, server.set('env')
         );
     });

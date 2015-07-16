@@ -1,0 +1,11 @@
+{
+  "final:after": {
+    "errorhandler": {
+      "params": {
+        "log": true,
+        "dumpExceptions": true,
+        "showStack": true
+      }
+    }
+  }
+}

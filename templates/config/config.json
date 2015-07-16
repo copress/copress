@@ -1,0 +1,5 @@
+{
+  "jsDirectory": "/javascripts/",
+  "cssDirectory": "/stylesheets/",
+  "cssEngine": "{{ CSSENGINE }}"
+}

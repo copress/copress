@@ -1,0 +1,56 @@
+{
+  "initial:before": {
+    "expressx#logger": {
+      "params": "dev"
+    }
+  },
+  "initial": {
+    "body-parser#urlencoded": {
+      "params": {
+        "extended": true
+      }
+    },
+    "body-parser#json": {},
+    "cookie-parser": {
+      "params": "keyboard cat"
+    },
+    "method-override": {},
+    "multer": {}
+  },
+  "session": {
+    "express-session": {
+      "params": {
+        "saveUninitialized": true,
+        "resave": true,
+        "secret": "keyboard cat",
+        "cookie": {
+          "secure": true
+        }
+      }
+    }
+  },
+  "files": {
+    "serve-static": [
+      {
+        "params": [
+          "$!../public",
+          {
+            "maxAge": 86400000
+          }
+        ],
+        "paths": [
+          "/"
+        ]
+      }
+    ],
+    "serve-favicon": {
+      "params": "$!../public/favicon.ico"
+    }
+  },
+  "final": {
+    "expressx#urlNotFound": {}
+  },
+  "final:after": {
+    "errorhandler": {}
+  }
+}
