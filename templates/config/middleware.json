@@ -15,21 +15,6 @@
       "params": "keyboard cat"
     },
     "method-override": {},
-    "multer": {}
-  },
-  "session": {
-    "express-session": {
-      "params": {
-        "saveUninitialized": true,
-        "resave": true,
-        "secret": "keyboard cat",
-        "cookie": {
-          "secure": true
-        }
-      }
-    }
-  },
-  "files": {
     "serve-static": [
       {
         "params": [
@@ -46,8 +31,22 @@
     "serve-favicon": {
       "params": "$!../public/favicon.ico"
     }
+
+  },
+  "session": {
+    "express-session": {
+      "params": {
+        "saveUninitialized": true,
+        "resave": true,
+        "secret": "keyboard cat",
+        "cookie": {
+          "secure": true
+        }
+      }
+    }
   },
   "final": {
+    "multer": {},
     "expressx#urlNotFound": {}
   },
   "final:after": {

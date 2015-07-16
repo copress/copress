@@ -44,7 +44,6 @@ describe('Generators API', function() {
             'create  app/assets/',
             'create  app/assets/coffeescripts/',
             'create  app/assets/stylesheets/',
-            'create  app/models/',
             'create  app/controllers/',
             'create  app/helpers/',
             'create  app/tools/',
